@@ -57,3 +57,17 @@ h1 {
   margin: 200px 50px;
   font-size: 80px;
 }
+@media (max-width: 912px) {
+  .bubbles span {
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 0 0 5px #4fc3dc44, 0 0 20px #4fc3dc, 0 0 30px #4fc3dc;
+    margin: 0 2px;
+  }
+  .bubbles span:nth-child(even) {
+    box-shadow: 0 0 0 5px #ada15844, 0 0 20px #f0d04c, 0 0 30px #f0d04c;
+  }
+  h1 {
+    font-size: 38px;
+  }
+}
